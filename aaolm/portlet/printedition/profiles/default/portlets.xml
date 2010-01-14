@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <!-- Portlet type registrations -->
+
+ <portlet
+   addview="aaolm.portlet.printedition.PrintEditionPortlet"
+   title="Print Editions"
+   description="This portlet displays information about the printed edition of Advanced Aquarist's Online Magazine."
+   />
+
+</portlets>

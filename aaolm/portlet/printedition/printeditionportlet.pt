@@ -1,0 +1,38 @@
+<metal:block use-macro="here/global_defines/macros/defines" />
+<dl id="portlet-printedition"
+    class="portlet portletPrintEditionPortlet"
+    i18n:domain="aaolm.portlet.printedition">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Print Editions
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+
+				<p>
+				   <a href="#"
+				   	  tal:attributes="href string:${portal_url}/print-edition">
+				   	   <img src="++resource++aaolm.portlet.printedition.images/pdf-icon-med.gif" 
+				   	   	    style="float:right; padding: 0 0 10px 10px;" />
+			   	   </a>
+                      Advanced Aquarist is also available in a 
+                       <strong><a href="#" tal:attributes="href string: ${portal_url}/print-edition">Print Edition available from Amazon.com</a></strong>. 
+                       Support the magazine by heading over to order your copy today! </p>
+
+                    <p>We also have a 
+                       <a href="#" tal:attributes="href string: ${portal_url}/pdf">PDF</a> edition available
+                       for your offline reading enjoyment. Download a copy!
+				</p>
+				
+    </dd>
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        	<a href="#"
+        	   tal:attributes="href string: ${portal_url}/print-edition">Read More...</a>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>

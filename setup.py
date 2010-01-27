@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='Print Edition Portlet',
+setup(name='aaolm.portlet.printedition',
       version=version,
       description="This portlet displays information about the printed edition of Advanced Aquarist's Online Magazine.",
       long_description=open("README.txt").read() + "\n" +

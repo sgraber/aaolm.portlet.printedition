@@ -1,7 +1,7 @@
-<metal:block use-macro="here/global_defines/macros/defines" />
 <dl id="portlet-printedition"
     class="portlet portletPrintEditionPortlet"
-    i18n:domain="aaolm.portlet.printedition">
+    i18n:domain="aaolm.portlet.printedition"
+    tal:define="portal_url context/portal_url">
 
     <dt class="portletHeader">
         <span class="portletTopLeft"></span>

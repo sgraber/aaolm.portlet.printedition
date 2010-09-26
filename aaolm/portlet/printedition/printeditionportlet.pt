@@ -15,7 +15,7 @@
 				   <a href="#"
 				   	  tal:attributes="href string:${portal_url}/print-edition">
 				   	   <img src="++resource++aaolm.portlet.printedition.images/pdf-icon-med.gif" 
-				   	   	    style="float:right; padding: 0 0 10px 10px;" />
+				   	   	    class="printedition-image" />
 			   	   </a>
                       Advanced Aquarist is also available in a 
                        <strong><a href="#" tal:attributes="href string: ${portal_url}/print-edition">Print Edition available from Amazon.com</a></strong>. 
